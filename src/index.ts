@@ -2,7 +2,6 @@ import express from "express";
 import romance from "./romance";
 
 const app = express();
-// const router = express.Router();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
